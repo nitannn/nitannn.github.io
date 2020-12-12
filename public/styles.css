@@ -1,0 +1,122 @@
+body {
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%23000000' fill-opacity='0.04'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+div {
+  display: block;
+}
+
+a {
+  color: #ea7c2f;
+  fill: #ea7c2f;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #ea7c2f;
+  fill: #ea7c2f;
+  text-decoration: underline;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  max-width: 400px;
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 60px);
+  justify-content: center;
+}
+
+.portrait {
+  height: 200px;
+  background-size: 50px;
+  border-radius:200px;
+  background-color: #ffdfc8;
+  background-attachment: fixed;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='32' viewBox='0 0 16 32'%3E%3Cg fill='%23ffc195' fill-opacity='0.55'%3E%3Cpath fill-rule='evenodd' d='M0 24h4v2H0v-2zm0 4h6v2H0v-2zm0-8h2v2H0v-2zM0 0h4v2H0V0zm0 4h2v2H0V4zm16 20h-6v2h6v-2zm0 4H8v2h8v-2zm0-8h-4v2h4v-2zm0-20h-6v2h6V0zm0 4h-4v2h4V4zm-2 12h2v2h-2v-2zm0-8h2v2h-2V8zM2 8h10v2H2V8zm0 8h10v2H2v-2zm-2-4h14v2H0v-2zm4-8h6v2H4V4zm0 16h6v2H4v-2zM6 0h2v2H6V0zm0 24h2v2H6v-2z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.icon {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  fill: #000;
+}
+
+footer {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  height: 60px;
+  font-size: 10px;
+}
+
+footer,
+footer a {
+  color: #a0a0a0;
+}
+
+@media only screen and (min-width: 770px) {
+  .main {
+    flex-direction: row;
+  }
+
+  .portrait {
+    height: 300px;
+    margin: 20px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  a {
+    color: #000;
+    fill: #000;
+  }
+
+  .intro {
+    margin: 20px;
+  }
+
+  footer {
+  font-size: 12px;
+
+}
+}
